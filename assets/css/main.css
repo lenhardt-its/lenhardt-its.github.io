@@ -56,7 +56,10 @@
   }
 
   .navigation {
-    float: left; }
+    float: left;
+    width: 100%;
+    text-align: center;
+  }
 
   .logo {
     font-size: 300%;
@@ -66,11 +69,14 @@
 
   .menu {
     color: #828282;
-    font-size: 150%;
+    font-size: 125%;
     margin: 0px;
     margin-top: 6px;
     padding: 0px;
-    list-style-type: none; }
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+  }
 
   .menu__entry {
     display: inline-block;
