@@ -78,6 +78,16 @@
   .menu__entry a {
     font-weight: 400; }
 
+  .social-links {
+    float: right;
+    font-size: 150%;
+    color: #828282;
+    list-style-type: none; }
+
+  .social-links__entry {
+    display: inline-block;
+    margin-left: 10px; }
+
 /* =Titles *//*************************************************************/
   .page-title {
     margin: 30px auto;
@@ -169,19 +179,6 @@
       display: block;
       text-align: center;
       width: 100%; }
-
-/* *Footer *//******************************************************************/
-.social-links {
-  float: right;
-  font-size: 150%;
-  color: #828282;
-  list-style-type: none;
-}
-
-.social-links__entry {
-  display: inline-block;
-  margin-left: 5px;
-}
 
 /* =Small screen *//*************************************************************/
   @media (max-width: 500px) {
