@@ -230,13 +230,22 @@
 
     .page-title {
       margin-top: 10px;
-      margin-bottom: 30px; }
+      margin-bottom: 30px;
+      width: 100%;
+      text-align: center;
+    }
 
     .page-title__text {
-      font-size: 150%; }
+      font-size: 150%;
+      width: 100%;
+      text-align: center;
+    }
 
     .page-title__subtitle {
-      font-size: 65%; }
+      font-size: 65%;
+      width: 100%;
+      text-align: center;
+    }
 
     .post-teaser__title {
       font-size: 150%;
