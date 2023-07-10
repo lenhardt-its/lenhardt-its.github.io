@@ -35,7 +35,7 @@
       {{ content }}
       <footer>
         <p class="footer">
-          <small> &copy; {{ site.time | date: '%Y' }} {{site.title}} 
+          &copy; {{ site.time | date: '%Y' }} {{site.title}} 
             | Powered by <a target="_blank" href="https://jekyllrb.com/">Jekyll</a> 
             | Last updated on {{ site.time | date_to_long_string }}
             <br><br>
@@ -53,7 +53,6 @@
             {% endif %}
             | <a href="{{ '/privacy' | prepend: site.baseurl }}">Datenschutz</a> 
             | <a href="{{ '/imprint' | prepend: site.baseurl }}">Impressum</a>
-          </small>
         </p>
       </footer>
     </div>
