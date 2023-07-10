@@ -38,10 +38,7 @@
           <small> &copy; {{ site.time | date: '%Y' }} {{site.title}} 
             | Powered by <a target="_blank" href="https://jekyllrb.com/">Jekyll</a> 
             | Last updated on {{ site.time | date_to_long_string }}
-          </small>
-        </p>
-        <p class="footer">
-          <small>
+            <br><br>
             {% if site.author.email %}
             <a href="mailto:{{ site.author.email }}" target="_blank"><i class="fa fa-envelope-square"></i></a>
             {% endif %}
@@ -54,8 +51,8 @@
             {% if site.author.xing %}
             <a href="https://www.xing.com/profile/{{ site.author.xing }}/cv" target="_blank"><i class="fa fa-xing"></i></a>
             {% endif %}
-            | <li><a href="{{ '/privacy' | prepend: site.baseurl }}">Datenschutz</a></li> 
-            | <li><a href="{{ '/imprint' | prepend: site.baseurl }}">Impressum</a></li>
+            | <a href="{{ '/privacy' | prepend: site.baseurl }}">Datenschutz</a> 
+            | <a href="{{ '/imprint' | prepend: site.baseurl }}">Impressum</a>
           </small>
         </p>
       </footer>
