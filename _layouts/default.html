@@ -33,28 +33,6 @@
             <li class="menu__entry"><a href="{{ '/imprint' | prepend: site.baseurl }}">Impressum</a></li>
           </ul>
         </div>
-        <ul class="social-links">
-          {% if site.author.email %}
-          <a href="mailto:{{ site.author.email }}" class="social-links__entry" target="_blank">
-            <i class="fa fa-envelope-square"></i>
-          </a>
-          {% endif %}
-          {% if site.author.github %}
-          <a href="https://github.com/{{ site.author.github }}" class="social-links__entry" target="_blank">
-            <i class="fa fa-github"></i>
-          </a>
-          {% endif %}
-          {% if site.author.linkedin %}
-          <a href="https://in.linkedin.com/in/{{ site.author.linkedin }}" class="social-links__entry" target="_blank">
-            <i class="fa fa-linkedin"></i>
-          </a>
-          {% endif %}
-          {% if site.author.xing %}
-          <a href="https://www.xing.com/profile/{{ site.author.xing }}/cv" class="social-links__entry" target="_blank">
-            <i class="fa fa-xing"></i>
-          </a>
-          {% endif %}
-        </ul>
       </header>
       {{ content }}
       <footer>
@@ -66,36 +44,28 @@
           </small>
         </p>
         <div class="rounded-social-buttons">
-          {%- if site.email -%}
-          <a title="{{ _locale_string_email }}" class="social-button email" itemprop="email"
-            href="mailto:{{ site.email | encode_email }}" target="_blank">
-            <i class="far fa-envelope"></i>
-          </a>
-          {%- endif -%}
-          {%- if site.linkedin -%}
-          <a title="{{ _locale_string_follow | replace: '[NAME]', 'LinkedIn' }}" class="social-button linkedin"
-            href="https://www.linkedin.com/in/{{ site.linkedin }}" itemprop="sameAs" target="_blank">
-            <i class="fab fa-linkedin"></i>
-          </a>
-          {%- endif -%}
-          {%- if site.github -%}
-          <a title="{{ _locale_string_follow | replace: '[NAME]', 'GitHub' }}" class="social-button github"
-            href="https://www.github.com/{{ site.github }}" itemprop="sameAs" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-          {%- endif -%}
-          {%- if site.twitter -%}
-          <a title="{{ _locale_string_follow | replace: '[NAME]', 'Twitter' }}" class="social-button twitter"
-            href="https://www.twitter.com/{{ site.twitter }}" itemprop="sameAs" target="_blank">
-            <i class="fab fa-twitter"></i>
-          </a>
-          {%- endif -%}
-          {%- if site.xing -%}
-          <a title="{{ _locale_string_follow | replace: '[NAME]', 'Xing' }}" class="social-button xing"
-            href="https://www.xing.com/profile/{{ site.author.xing }}/cv" itemprop="sameAs" target="_blank">
-            <i class="fab fa-xing"></i>
-          </a>
-          {%- endif -%}
+          <ul class="social-links">
+            {% if site.author.email %}
+            <a href="mailto:{{ site.author.email }}" class="social-links__entry" target="_blank">
+              <i class="fa fa-envelope-square"></i>
+            </a>
+            {% endif %}
+            {% if site.author.github %}
+            <a href="https://github.com/{{ site.author.github }}" class="social-links__entry" target="_blank">
+              <i class="fa fa-github"></i>
+            </a>
+            {% endif %}
+            {% if site.author.linkedin %}
+            <a href="https://in.linkedin.com/in/{{ site.author.linkedin }}" class="social-links__entry" target="_blank">
+              <i class="fa fa-linkedin"></i>
+            </a>
+            {% endif %}
+            {% if site.author.xing %}
+            <a href="https://www.xing.com/profile/{{ site.author.xing }}/cv" class="social-links__entry" target="_blank">
+              <i class="fa fa-xing"></i>
+            </a>
+            {% endif %}
+          </ul>
         </div>
       </footer>
     </div>
