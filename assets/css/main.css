@@ -77,7 +77,21 @@
     margin-right: 0px; }
 
   .menu__entry a {
-    font-weight: 400; }
+    font-weight: 400;
+  }
+  
+  .menu__entry_small {
+    display: inline-block;
+    margin-right: 3px;
+  }
+  
+  .menu__entry_small:last-child {
+    margin-right: 0px;
+  }
+  
+  .menu__entry_small a {
+    font-size: 150%;
+  }
 
   .social-links {
     float: right;

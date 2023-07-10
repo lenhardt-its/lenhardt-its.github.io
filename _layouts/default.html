@@ -29,8 +29,6 @@
           <ul class="menu">
             <li class="menu__entry"><a href="{{ '/resume' | prepend: site.baseurl }}">Resume</a></li>
             <li class="menu__entry"><a href="{{ '/blog' | prepend: site.baseurl }}">Blog</a></li>
-            <li class="menu__entry"><a href="{{ '/privacy' | prepend: site.baseurl }}">Datenschutz</a></li>
-            <li class="menu__entry"><a href="{{ '/imprint' | prepend: site.baseurl }}">Impressum</a></li>
             {% if site.author.email %}
             <a href="mailto:{{ site.author.email }}" target="_blank"><i class="fa fa-envelope-square"></i></a>
             {% endif %}
@@ -52,6 +50,12 @@
           <small> &copy; {{ site.time | date: '%Y' }} {{site.title}} 
             | Powered by <a target="_blank" href="https://jekyllrb.com/">Jekyll</a> 
             | Last updated on {{ site.time | date_to_long_string }}
+          </small>
+        </p>
+        <p class="footer">
+          <small> 
+            <li class="menu__entry_small"><a href="{{ '/privacy' | prepend: site.baseurl }}">Datenschutz</a></li> 
+            | <li class="menu__entry_small"><a href="{{ '/imprint' | prepend: site.baseurl }}">Impressum</a></li>
           </small>
         </p>
       </footer>
