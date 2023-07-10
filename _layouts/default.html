@@ -37,13 +37,10 @@
       {{ content }}
       <footer>
         <p class="copy">
-          <small> &copy; {{site.title}} {{ site.time | date: '%Y' }}
-            | Powered by Jekyll and
-            <a target="_blank" href="https://github.com/jitinnair1/gradfolio/">Gradfolio</a>.
-            Last updated on {{ site.time | date_to_long_string }}
+          <small> &copy; {{ site.time | date: '%Y' }} {{site.title}} 
+            | Powered by <a target="_blank" href="https://jekyllrb.com/">Jekyll</a> 
+            | Last updated on {{ site.time | date_to_long_string }}
           </small>
-        </p>
-        <div class="rounded-social-buttons">
           <ul class="social-links">
             {% if site.author.email %}
             <a href="mailto:{{ site.author.email }}" class="social-links__entry" target="_blank">
@@ -66,7 +63,7 @@
             </a>
             {% endif %}
           </ul>
-        </div>
+        </p>
       </footer>
     </div>
     <script src="{{ "/assets/vendor/highlight/highlight.pack.js" | prepend: site.baseurl }}"></script>
