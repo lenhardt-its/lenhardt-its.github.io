@@ -50,7 +50,10 @@
 
 /* =Header *//*************************************************************/
   .header {
-    overflow: hidden; }
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+  }
 
   .navigation {
     float: left; }
@@ -212,7 +215,10 @@
       width: 90%;
       margin: 15px auto; }
 
-    .navigation,
+    .navigation {
+      text-align: center;
+      width: 100%;
+    }
     .social-links {
       display: block;
       text-align: center;
