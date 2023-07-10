@@ -23,18 +23,20 @@
   </head>
   <body>
       <header class="header">
-        <div class="navigation">
-          <a href="{{ '/' | prepend: site.baseurl }}" class="logo">{{ site.title }}</a>
-          <ul class="menu">
-            <li class="menu__entry"><a href="{{ '/resume' | prepend: site.baseurl }}">Resume</a></li>
-            <li class="menu__entry"><a href="{{ '/blog' | prepend: site.baseurl }}">Blog</a></li>
-          </ul>
-        </div>
+        <p class="header">
+          <div class="navigation">
+            <a href="{{ '/' | prepend: site.baseurl }}" class="logo">{{ site.title }}</a>
+            <ul class="menu">
+              <li class="menu__entry"><a href="{{ '/resume' | prepend: site.baseurl }}">Resume</a></li>
+              <li class="menu__entry"><a href="{{ '/blog' | prepend: site.baseurl }}">Blog</a></li>
+            </ul>
+          </div>
+        </p>
       </header>
       {{ content }}
       <footer>
-        <div class="about__divider">*****</div>
         <p class="footer">
+          <div class="about__divider">*****</div>
           &copy; {{ site.time | date: '%Y' }} {{site.title}} 
             | Powered by <a target="_blank" href="https://jekyllrb.com/">Jekyll</a> 
             | Last updated on {{ site.time | date_to_long_string }}
