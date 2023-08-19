@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ""
-subtitle: Ihr Anliegen ist meine Mission
+subtitle: IT Dienstleistungen und Beratung aus erster Hand
 sitemap:
   priority: 0.9
 ---
