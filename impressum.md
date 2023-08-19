@@ -4,16 +4,16 @@ subtitle: "Impressum"
 ---
 ## Angaben gemäß § 5 TMG:
 <p>Dominik Lenhardt<br>
-Tulpenstraße 5<br>
-64832 Babenhausen<br><br>
+Baumgartenstrasse 37<br>
+35321 Laubach<br><br>
 Kontakt:<br>
 E-Mail: <a href="mailto:office@lenhardt.cc?Subject=Impressum lenhardt.cc">office (AT) lenhardt (PUNKT) cc</a><br>
 Mobil: +49 160 99625867</p>
 
 ## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:
 <p>Dominik Lenhardt<br>
-Tulpenstraße 5<br>
-64832 Babenhausen<br></p>
+Baumgartenstrasse 37<br>
+35321 Laubach<br></p>
 
 ## Haftungsausschluss (Disclaimer)
 ### Haftung für Inhalte
