@@ -2,7 +2,7 @@
 permalink: /impressum/
 subtitle: "Impressum"
 ---
-## Angaben gemäß § 5 TMG:
+<h3>Angaben gemäß § 5 TMG:</h3>
 <p>Dominik Lenhardt<br>
 Baumgartenstrasse 37<br>
 35321 Laubach<br><br>
