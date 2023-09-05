@@ -10,7 +10,7 @@ Kontakt:<br>
 E-Mail: <a href="mailto:office@lenhardt.cc?Subject=Impressum lenhardt.cc">office (AT) lenhardt (PUNKT) cc</a><br>
 Mobil: +49 160 99625867<br><br>
 
-St.-Nr. 0884131412 (Hessen)
+St.-Nr. 0884131412 (Hessen)<br>
 USt-IdNr. DE360504797</p>
 
 ## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:
