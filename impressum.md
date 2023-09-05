@@ -4,11 +4,14 @@ subtitle: "Impressum"
 ---
 <h3>Angaben gemäß § 5 TMG:</h3>
 <p>Dominik Lenhardt<br>
-Baumgartenstrasse 37<br>
+Baumgartenstr. 37<br>
 35321 Laubach<br><br>
 Kontakt:<br>
 E-Mail: <a href="mailto:office@lenhardt.cc?Subject=Impressum lenhardt.cc">office (AT) lenhardt (PUNKT) cc</a><br>
-Mobil: +49 160 99625867</p>
+Mobil: +49 160 99625867<br><br>
+
+St.-Nr. 0884131412 (Hessen)
+USt-IdNr. DE360504797</p>
 
 ## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:
 <p>Dominik Lenhardt<br>
