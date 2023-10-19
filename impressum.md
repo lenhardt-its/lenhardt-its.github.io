@@ -15,7 +15,7 @@ USt-IdNr. DE360504797</p>
 
 ## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:
 <p>Dominik Lenhardt<br>
-Baumgartenstrasse 37<br>
+Baumgartenstr. 37<br>
 35321 Laubach<br></p>
 
 ## Haftungsausschluss (Disclaimer)
