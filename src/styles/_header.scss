@@ -24,7 +24,7 @@
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   .site-username {
-    font-size: 26px;
+    font-size: 28px;
     display: block;
     line-height: 1;
     color: #FFF;
@@ -41,16 +41,6 @@
     @media only screen and (min-width:$cut){
       margin: 0;
       font-size: 100px;
-    }
-  }
-  .site-description {
-    font-size: 16px;
-    display: block;
-    line-height: 1;
-    color: #FFF;
-    margin-top: 10px;
-    @media only screen and (min-width:$cut){
-      font-size: 40px;
     }
   }
 }
