@@ -52,14 +52,6 @@
     text-decoration: none;
     font-size: 15px;
     margin: 10px;
-    &:hover {
-      text-decoration: underline;
-      color: $sec;
-    }
-
-    &:active {
-      color: $sec;
-    }
     @media only screen and (min-width:$cut){
       font-size: 20px;
     }
