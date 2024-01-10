@@ -1,11 +1,11 @@
 <div id="particles-js">
   <div class="header">
       <h1>
-        <a class="link" href="{{ '/assets/img/portfolio.png' | prepend: site.baseurl }}">
+        <a class="link" href="{{ url }}">
           <img id="photo" alt="photo" src="{{ '/assets/img/portfolio.png' | prepend: site.baseurl }}">
         </a>
-        <span class="site-username">Dominik Lenhardt</span>
-        <span class="site-title">DevOps Engineer</span>
+        <span class="site-title">Dominik Lenhardt</span>
+        <span class="site-username">DevOps Engineer</span>
         <span class="site-description">Lang kann er sein :)</span>
       </h1>
       <div class="header-icons">
@@ -16,9 +16,9 @@
         <a aria-label="My LinkedIn" target="_blank" href="https://www.linkedin.com/in/{{site.linkedin_username}}"><i class="icon fa fa-linkedin" aria-hidden="true"></i></a>
       </div>
       <div class="header-links">
-        <a class="link" href="#about" data-scroll>About Me</a>
-        <a class="link" href="#cv" data-scroll>CV</a>
-        <a class="link" href="#skills" data-scroll>Skills</a>
+        <a class="link" href="{{ url }}/#about" data-scroll>About Me</a>
+        <a class="link" href="{{ url }}/#cv" data-scroll>CV</a>
+        <a class="link" href="{{ url }}/#skills" data-scroll>Skills</a>
       </div>
   </div>
   <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a> | <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
