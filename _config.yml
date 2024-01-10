@@ -2,7 +2,7 @@
 title: Dominik Lenhardt IT-Services
 description: Effiziente IT-Lösungen, flexibel für Sie gestaltet – Ihr Experte für System- und Cloud-Administration
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
-# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url: "onkeldom.github.io"
 
 # User settings
 username: Dominik Lenhardt
