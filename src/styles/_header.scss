@@ -23,8 +23,8 @@
   margin: 0 auto;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  .site-username {
-    font-size: 28px;
+  .site-title {
+    font-size: 24px;
     display: block;
     line-height: 1;
     color: #FFF;
@@ -32,17 +32,18 @@
       margin: 0;
       font-size: 100px;
     }
-  }
-  .site-title {
+  }.site-description-top {
     font-size: 20px;
     display: block;
     line-height: 1;
     color: #FFF;
-    @media only screen and (min-width:$cut){
+  
+    @media only screen and (min-width:$cut) {
       margin: 0;
       font-size: 100px;
     }
-  }.site-description {
+  }
+  .site-description {
     font-size: 16px;
     display: block;
     line-height: 1;
