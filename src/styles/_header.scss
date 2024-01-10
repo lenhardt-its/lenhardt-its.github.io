@@ -24,7 +24,7 @@
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   .site-title {
-    font-size: 50px;
+    font-size: 30px;
     display: block;
     line-height: 1;
     color: #FFF;
@@ -34,7 +34,7 @@
     }
   }
   .site-description {
-    font-size: 20px;
+    font-size: 18px;
     display: block;
     line-height: 1;
     color: #FFF;
@@ -52,6 +52,9 @@
     text-decoration: none;
     font-size: 15px;
     margin: 10px;
+    &:hover {
+        text-decoration: underline;
+      }
     @media only screen and (min-width:$cut){
       font-size: 20px;
     }
