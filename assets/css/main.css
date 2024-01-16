@@ -4899,7 +4899,7 @@ sup {
 }
 
 .header-links .link:hover {
-  text-decoration: underline;
+  color: #123456;
 }
 
 @media only screen and (min-width:550px) {
