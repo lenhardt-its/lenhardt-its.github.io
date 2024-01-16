@@ -5001,6 +5001,42 @@ sup {
   }
 }
 
+#cv {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 960px
+}
+
+@media only screen and (min-width:550px) {
+  #cv {
+    width: 80%
+  }
+}
+
+#weiterbildung {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 960px
+}
+
+@media only screen and (min-width:550px) {
+  #weiterbildung {
+    width: 80%
+  }
+}
+
+#projekte {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 960px
+}
+
+@media only screen and (min-width:550px) {
+  #projekte {
+    width: 80%
+  }
+}
+
 #datenschutz {
   width: 90%;
   margin: 0 auto;
