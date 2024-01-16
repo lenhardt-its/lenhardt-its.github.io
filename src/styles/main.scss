@@ -250,6 +250,27 @@ sup, sub {
     width: 80%;
   }
 }
+#skills {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 960px;
+
+  @media only screen and (min-width: $cut) {
+    width: 80%;
+  }
+}
+#cv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+
+  @media only screen and (min-width: $cut) {
+    width: 80%;
+  }
+}
 
 .tech {
   margin: 10px;
@@ -403,19 +424,6 @@ sup, sub {
     &:active {
       color: $sec;
     }
-  }
-}
-
-#projects {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 90%;
-  max-width: 960px;
-  margin: 0 auto;
-
-  @media only screen and (min-width: $cut) {
-    width: 80%;
   }
 }
 
