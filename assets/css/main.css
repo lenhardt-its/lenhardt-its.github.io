@@ -4994,6 +4994,18 @@ sup {
   }
 }
 
+#skills {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 960px
+}
+
+@media only screen and (min-width:550px) {
+  #skills {
+    width: 80%
+  }
+}
+
 .tech {
   margin: 10px
 }
@@ -5023,7 +5035,7 @@ sup {
   margin: 5px auto
 }
 
-#projects {
+#cv {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -5033,7 +5045,7 @@ sup {
 }
 
 @media only screen and (min-width:550px) {
-  #projects {
+  #cv {
     width: 80%
   }
 }
