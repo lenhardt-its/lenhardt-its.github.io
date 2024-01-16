@@ -103,20 +103,20 @@ sup, sub {
     line-height: 0;
 }
 
-#particles-js {
-  background: $main;
-  display: flex;
-  vertical-align: bottom;
-  width: 100%;
-  min-height: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  .particles-js-canvas-el {
-    width:100% !important;
-    height:100% !important;
-  }
-}
+// #particles-js {
+//   background: $main;
+//   display: flex;
+//   vertical-align: bottom;
+//   width: 100%;
+//   min-height: 100%;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   background-attachment: fixed;
+//   .particles-js-canvas-el {
+//     width:100% !important;
+//     height:100% !important;
+//   }
+// }
 
 .header {
   z-index: 1;
