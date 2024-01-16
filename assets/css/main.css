@@ -5006,6 +5006,30 @@ sup {
   }
 }
 
+#datenschutz {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 960px
+}
+
+@media only screen and (min-width:550px) {
+  #datenschutz {
+    width: 80%
+  }
+}
+
+#impressum {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 960px
+}
+
+@media only screen and (min-width:550px) {
+  #impressum {
+    width: 80%
+  }
+}
+
 .tech {
   margin: 10px
 }
