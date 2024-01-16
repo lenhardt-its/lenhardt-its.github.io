@@ -137,7 +137,8 @@ sup, sub {
       margin: 0;
       font-size: 100px;
     }
-  }.site-description-top {
+  }
+  .site-description-top {
     font-size: 20px;
     display: block;
     line-height: 1;
@@ -241,36 +242,36 @@ sup, sub {
   }
 }
 
-#about {
-  width: 90%;
-  margin: 0 auto;
-  max-width: 960px;
+// #about {
+//   width: 90%;
+//   margin: 0 auto;
+//   max-width: 960px;
 
-  @media only screen and (min-width: $cut) {
-    width: 80%;
-  }
-}
-#skills {
-  width: 90%;
-  margin: 0 auto;
-  max-width: 960px;
+//   @media only screen and (min-width: $cut) {
+//     width: 80%;
+//   }
+// }
+// #skills {
+//   width: 90%;
+//   margin: 0 auto;
+//   max-width: 960px;
 
-  @media only screen and (min-width: $cut) {
-    width: 80%;
-  }
-}
-#cv {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 90%;
-  max-width: 960px;
-  margin: 0 auto;
+//   @media only screen and (min-width: $cut) {
+//     width: 80%;
+//   }
+// }
+// #cv {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-between;
+//   width: 90%;
+//   max-width: 960px;
+//   margin: 0 auto;
 
-  @media only screen and (min-width: $cut) {
-    width: 80%;
-  }
-}
+//   @media only screen and (min-width: $cut) {
+//     width: 80%;
+//   }
+// }
 
 .tech {
   margin: 10px;
