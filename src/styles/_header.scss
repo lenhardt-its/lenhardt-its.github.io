@@ -64,14 +64,11 @@
     font-size: 15px;
     margin: 10px;
     &:hover {
-      color: #666;
-      text-decoration: underline;
+      color: $sec;
     }
     &:active {
-      color: #999;
-    }
-    @media only screen and (min-width:$cut){
-      font-size: 20px;
+      color: $sec;
+      text-decoration: underline;
     }
   }
 }
