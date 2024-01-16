@@ -4860,7 +4860,7 @@ sup {
 }
 
 .header .site-title {
-  font-size: 50px;
+  font-size: 40px;
   display: block;
   line-height: 1;
   color: #fff
@@ -4869,12 +4869,12 @@ sup {
 @media only screen and (min-width:550px) {
   .header .site-title {
     margin: 0;
-    font-size: 100px
+    font-size: 80px
   }
 }
 
 .header .site-description {
-  font-size: 20px;
+  font-size: 16px;
   display: block;
   line-height: 1;
   color: #fff;
@@ -4883,7 +4883,7 @@ sup {
 
 @media only screen and (min-width:550px) {
   .header .site-description {
-    font-size: 40px
+    font-size: 30px
   }
 }
 
