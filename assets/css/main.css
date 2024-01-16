@@ -4913,11 +4913,6 @@ sup {
 }
 
 .header-links .link:hover {
-  color: #123456;
-}
-
-.header-links .link:active {
-  color: #123456;
   text-decoration: underline;
 }
 
