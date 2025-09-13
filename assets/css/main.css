@@ -5200,39 +5200,43 @@ body {
   color: #fff
 }
 
-/* Container */
+/* Formular-Container */
 #contactForm {
   display: grid;
   gap: 1rem;
-  max-width: 500px;
+  max-width: 560px;
   margin: 2rem auto;
   padding: 2rem;
   background: #fff;
   border-radius: 1rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .08);
   font-family: "Segoe UI", Roboto, sans-serif;
 }
 
+/* WICHTIG: Breite inkl. Padding/Border berechnen */
+#contactForm,
+#contactForm * {
+  box-sizing: border-box;
+}
+
+/* Felder */
 #contactForm input,
 #contactForm textarea {
   width: 100%;
-  padding: 0.9rem 1.2rem;
+  padding: 0.85rem 1rem;
   border: 1.5px solid #ccc;
-  /* etwas stärker und kontrastreicher */
   border-radius: 0.6rem;
-  font-size: 1rem;
-  transition: all 0.2s ease;
   background: #fff;
-  /* reines Weiß statt grau */
+  font-size: 1rem;
+  transition: border-color .2s ease, box-shadow .2s ease, background .2s ease;
 }
 
-/* Hover/Focus Effekte */
+/* Fokus */
 #contactForm input:focus,
 #contactForm textarea:focus {
   border-color: #005bbb;
-  background: #fff;
+  box-shadow: 0 0 0 3px rgba(0, 91, 187, .12);
   outline: none;
-  box-shadow: 0 0 0 3px rgba(0, 91, 187, 0.12);
 }
 
 /* Textarea */
@@ -5241,16 +5245,25 @@ body {
   resize: vertical;
 }
 
-/* Button */
+/* Button (deiner ist ok) – hier nur der Vollständigkeit halber */
 #contactForm button {
+  width: 100%;
   background: #005bbb;
   color: #fff;
-  border: none;
+  border: 0;
   border-radius: 0.6rem;
   padding: 0.9rem 1.2rem;
   font-size: 1rem;
   cursor: pointer;
-  transition: background 0.2s ease, transform 0.1s ease;
+  transition: background .2s ease, transform .1s ease;
+}
+
+#contactForm button:hover {
+  background: #004299;
+}
+
+#contactForm button:active {
+  transform: scale(0.98);
 }
 
 /* Hover/Active Button */
