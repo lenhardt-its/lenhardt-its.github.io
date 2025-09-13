@@ -16,9 +16,9 @@
         <a aria-label="My LinkedIn" target="_blank" href="https://www.linkedin.com/in/{{site.linkedin_username}}"><i class="icon fa fa-linkedin" aria-hidden="true"></i></a>
       </div>
       <div class="header-links">
-        <a class="link" href="/about" data-scroll>Über mich</a>
-        <a class="link" href="/about#skills" data-scroll>Skills</a>
-        <a class="link" href="/about#cv" data-scroll>CV</a>
+        <a href="{{ '/about' | prepend: site.baseurl }}">Über mich</a>
+        <a href="{{ '/about#skills' | prepend: site.baseurl }}">Skills</a>
+        <a href="{{ '/about#cv' | prepend: site.baseurl }}">CV</a>
       </div>
   </div>
   <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a> | <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
