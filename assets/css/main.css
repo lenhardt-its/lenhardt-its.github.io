@@ -5213,16 +5213,17 @@ body {
   font-family: "Segoe UI", Roboto, sans-serif;
 }
 
-/* Eingabefelder */
 #contactForm input,
 #contactForm textarea {
   width: 100%;
   padding: 0.85rem 1rem;
-  border: 1px solid #ddd;
+  border: 1.5px solid #ccc;
+  /* etwas stärker und kontrastreicher */
   border-radius: 0.6rem;
   font-size: 1rem;
   transition: all 0.2s ease;
-  background: #fafafa;
+  background: #fff;
+  /* reines Weiß statt grau */
 }
 
 /* Hover/Focus Effekte */
@@ -5231,7 +5232,7 @@ body {
   border-color: #005bbb;
   background: #fff;
   outline: none;
-  box-shadow: 0 0 0 3px rgba(0, 91, 187, 0.15);
+  box-shadow: 0 0 0 3px rgba(0, 91, 187, 0.12);
 }
 
 /* Textarea */
