@@ -5216,7 +5216,7 @@ body {
 #contactForm input,
 #contactForm textarea {
   width: 100%;
-  padding: 0.85rem 1rem;
+  padding: 0.9rem 1.2rem;
   border: 1.5px solid #ccc;
   /* etwas stärker und kontrastreicher */
   border-radius: 0.6rem;
