@@ -1,0 +1,97 @@
+<section id="intro">
+  <div class="user-details">
+    <hgroup>
+      <h1> Infrastruktur. Einfach. Zuverlässig.</h1>
+    </hgroup>
+    <p>
+      Wir bieten hochverfügbare, automatisierte Infrastruktur auf Basis von Open Source. Unsere Kunden erhalten stabile
+      Systeme, volle Kontrolle und umfassenden Support.<br>
+      Weiter können wir ihnen umfangreiche Expertise im Bereich Microsoft365 und Azure Cloud bieten.<br>
+      Darüber hinaus legen wir großen Wert auf Sicherheit und Datenschutz.
+    </p>
+  </div>
+</section>
+
+<section id="leistungen">
+  <div class="user-details">
+    <hgroup>
+      <h1> Unsere Leistungen </h1>
+      <h2>Infrastruktur-Betrieb & darüber hinaus</h2>
+    </hgroup>
+    <p>
+      <ul>
+        <li>🏢 RZ-Fläche & Hosting (on-prem & hybrid)</li>
+        <li>📦 Virtualisierung mit Proxmox VE</li>
+        <li>🔧 Standardisierte VMs & Automatisierung</li>
+        <li>🧠 Netzwerkdienste: DNS, NTP, Auth, Proxy, PKI</li>
+        <li>📊 Monitoring mit Prometheus, Grafana, Loki</li>
+        <li>🧰 Self-Hosting Beratung oder vollständige SaaS-Lösungen</li>
+        <li>🔐 Fokus auf Verschlüsselung, Sicherheit & Open Source</li>
+      </ul>
+    </p>
+  </div>
+</section>
+
+<section id="warum">
+  <div class="user-details">
+    <hgroup>
+      <h2>Warum Inframonks?</h2>
+      <h3>Autonomie statt Cloud-Abhängigkeit</h3>
+    </hgroup>
+      <ul>
+        <li>🔓 100% Transparenz – durch Open Source</li>
+        <li>🛡️ Datenschutz & Sicherheit by Design</li>
+        <li>⚙️ Effizienz durch Automatisierung</li>
+        <li>🧘 Technischer Fokus mit ruhiger Hand</li>
+      </ul>
+  </div>
+</section>
+
+<section>
+  <hgroup>
+    <h2>Kontakt aufnehmen</h2>
+    <h3>Wir freuen uns über jede Anfrage</h3>
+  </hgroup>
+  <form id="contactForm" class="grid">
+    <input type="text" name="name" placeholder="Ihr Name" required />
+    <input type="email" name="email" placeholder="Ihre E-Mail" required />
+    <textarea name="message" placeholder="Ihre Nachricht" required></textarea>
+    <button type="submit">Absenden</button>
+  </form>
+
+  <script>
+    const AUTH_TOKEN = "UcyQOlRCRAFE50vHijPt9cKsw5zTLGQfxYz7xPPW0d2qur2KXsMr7isTmt0hj4GH"; // Muss mit dem Server übereinstimmen
+    const ENDPOINT_URL = "https://vps02.lenhardt.cc:8086/api/contact";
+
+    document.getElementById("contactForm").addEventListener("submit", async function (e) {
+      e.preventDefault();
+
+      const formData = new FormData(this);
+      const data = {
+        name: formData.get("name"),
+        email: formData.get("email"),
+        message: formData.get("message"),
+        auth: AUTH_TOKEN
+      };
+
+      try {
+        const res = await fetch(ENDPOINT_URL, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify(data)
+        });
+
+        if (res.ok) {
+          alert("Nachricht erfolgreich gesendet!");
+          this.reset();
+        } else {
+          alert("Fehler beim Senden.");
+        }
+      } catch (err) {
+        alert("Verbindungsfehler.");
+      }
+    });
+  </script>
+</section>
